@@ -1,0 +1,113 @@
+.full-screen {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* yatay ortalama */
+  align-items: center;     /* dikey ortalama */
+  text-align: center;
+  background-color: #171c31;
+  font-family:'Courier New', Courier, monospace;
+}
+.home-section{
+  background-color: #171c31;
+}
+
+.animated-info {
+  margin-top: 20px;
+  color: #dcfb88;
+}
+
+.animated-item {
+  font-size: 50px;
+  font-weight: 500;
+  display: inline-block;
+  border-right: 2px solid #ffffff; /* daktilo imleci */
+  padding-right: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: blinkCursor 0.7s step-end infinite;
+  transition: opacity 0.5s ease; /* yumuşak fade geçiş */
+}
+
+@keyframes blinkCursor {
+  50% {
+    border-color: transparent;
+  }
+}
+.about-text h2, .fade-in {
+  font-size: 26px;
+  font-weight: 400;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+  color: #dcfb88;
+  margin-top: 10px;
+}
+body {
+  background-color: #171c31 !important;
+}
+
+.animated-text .mr-2 {
+  font-size: 90px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.custom-btn-group {
+  margin-top: 40px;
+}
+
+/* Basit fade animasyon */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.delay-1s {
+  animation-delay: 0.5s;
+}
+
+.delay-2s {
+  animation-delay: 1s;
+}
+
+.intro-text {
+    display: inline-block;       // genişliği içeriğe göre
+    max-width: 700px;            // Zeynep Kargı ismi ile uyumlu genişlik
+    text-align: center;          // ortala
+    margin: 20px auto 30px auto; // üst ve alt boşluk
+    font-size: px;
+    line-height: 1.8;
+    color: #bcbbbb;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.custom-btn {
+  background-color: #1c2136;
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  border-radius: 50px; // yumuşak köşeler
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+  i {
+    margin-right: 8px;
+  }
+
+  &:hover {
+    transform: translateY(-3px); // hafif yukarı hareket
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    background:  #e3f6c0; // hover gradient tersine
+    color: #000;
+  }
+
+ 
+}
+
