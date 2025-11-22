@@ -26,11 +26,8 @@ function Navbarr() {
         </Nav>
 
         <Nav className="nav-right social-icons">
-          <Nav.Link href="https://github.com/" target="_blank">
+          <Nav.Link href="https://github.com/zkargi" target="_blank">
             <FaGithub size={20} />
-          </Nav.Link>
-          <Nav.Link href="https://instagram.com/" target="_blank">
-            <FaInstagram size={20} />
           </Nav.Link>
           <Nav.Link href="https://www.linkedin.com/in/zeynepkargı/" target="_blank">
             <FaLinkedin size={20} />
