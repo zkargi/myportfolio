@@ -24,6 +24,13 @@ const experiences = [
 
 const educations = [
   {
+    year: "2026",
+    school: "Bursa Technical University",
+    degree: "Master's Degree",
+    department: "AI and Machine Learning",
+    duration: "2026-"
+  },
+  {
     year: "2020",
     school: "Balıkesir University",
     degree: "Bachelor's Degree",

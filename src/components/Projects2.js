@@ -10,6 +10,21 @@ const projects = [
     iconClass: "flaticon-analysis",
     link: "#"
   },
+  
+  {
+    title: "Taskly",
+    description:
+      "A task management mobile application developed with SwiftUI following the MVVM architecture, featuring analysis of completed tasks.",
+    iconClass: "flaticon-flasks",
+    link: "https://apps.apple.com/tr/app/taskly-own-your-time/id6762458178?l=tr"
+  },
+  {
+    title: "Clinic Website",
+    description:
+      "A user interface with React.js.",
+    iconClass: "flaticon-flasks",
+    link: "https://rk-1-dental.vercel.app"
+  },
   {
     title: "E-Commerce",
     description:
@@ -32,6 +47,13 @@ const projects = [
     link: "https://github.com/zkargi/TaskManagement"
   },
   {
+    title: "Art Book Project",
+    description:
+      "A simple Core Data-based painting list app where users can add, view, and delete paintings. Displays painting names in a table view and navigates to a detail screen. Data persisted locally using Core Data.",
+    iconClass: "flaticon-idea",
+    link: "https://github.com/zkargi/ArtBookProject"
+  },
+  {
     title: "Road Line Detection",
     description:
       "Technologies Used: Python for development, OpenCV for computer vision, NumPy for numerical computations.",
@@ -52,13 +74,7 @@ const projects = [
     iconClass: "flaticon-idea",
     link: "https://github.com/zkargi/CatchTheEric"
   },
-  {
-    title: "Art Book Project",
-    description:
-      "A simple Core Data-based painting list app where users can add, view, and delete paintings. Displays painting names in a table view and navigates to a detail screen. Data persisted locally using Core Data.",
-    iconClass: "flaticon-idea",
-    link: "https://github.com/zkargi/ArtBookProject"
-  },
+  
   {
     title: "Currency Converter",
     description:
